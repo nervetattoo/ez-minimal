@@ -1,0 +1,78 @@
+.minimal * {
+    color: #333;
+}
+
+.minimal a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.minimal a,
+.minimal a:link,
+.minimal a:visited,
+a {
+    color: brown;
+}
+
+.minimal ul, .minimal li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+#page {
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 3em;
+    text-align: left;
+}
+
+#page:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.minimal .kp-edit-block {
+    display: inline;
+}
+
+/* Nav */
+#main-menu {
+    min-width: 200px;
+    max-width: 300px;
+    float: left;
+}
+
+.update-on-edit {
+    position: relative;
+}
+.attribute-direct-edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.minimal h2 {
+    font-weight: normal;
+    font-size: 50px;
+}
+.minimal h3 {
+    line-height: 1.4;
+    margin: 1.2em 0 0.4em;
+    font-weight: normal;
+}
+
+/* Content */
+#main {
+    float: left;
+    max-width: 700px;
+    min-width: 500px;
+}
