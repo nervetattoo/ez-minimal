@@ -11,8 +11,8 @@
     {include uri='design:page_head.tpl'}
     {include uri='design:page_head_script.tpl'}
 
-    {ezcss_load(array(ezini('StylesheetSettings', 'UICSSFileList', 'design.ini'),
-                      ezini('StylesheetSettings', 'EndUserCSSFileList', 'design.ini') ))}
+    {ezcss_load()}
+    {ezcss(ezini('StylesheetSettings', 'EndUserCSSFileList', 'design.ini') )}
 
     {ezscript_require( array(
         ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ),
@@ -29,11 +29,10 @@
 <!--[if IE 7 ]>   <body class="ie7"><![endif]-->
 <!--[if IE 8 ]>   <body class="ie8"><![endif]-->
 <!--[if (gt IE 8)|!(IE)]><!--><body><!--<![endif]-->
-<!-- Complete page area: START -->
+
+{include uri='design:page_toolbar.tpl'}
 
 <div id="page" class="clear minimal">
-
-    {include uri='design:page_toolbar.tpl'}
 
     {def $menu = fetch('content', 'list', hash(
         'parent_node_id', 2,
@@ -69,5 +68,6 @@
 
 {* This comment will be replaced with actual debug report (if debug is on). *}
 <!--DEBUG_REPORT-->
+
 </body>
 </html>
