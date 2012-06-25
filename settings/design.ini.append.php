@@ -1,6 +1,6 @@
 <?php /* #?ini charset="utf-8"? 
 [ExtensionSettings] 
-DesignExtensions[]=ezraymond
+DesignExtensions[]=ez-minimal
 
 [StylesheetSettings]
 EndUserCSSFileList[]=pagelayout.css

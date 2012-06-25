@@ -1,6 +1,6 @@
 <?php /*
 
 [CustomTemplateSettings]
-CustomTemplateList[]=ezraymond
+CustomTemplateList[]=minimal
 
-IncludeInView[ezraymond]=full
+IncludeInView[minimal]=full

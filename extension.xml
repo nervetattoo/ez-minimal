@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <software>
     <metadata>
-        <name>eZ Raymond</name>
+        <name>eZ Minimal</name>
     </metadata>
 
     <dependencies>
